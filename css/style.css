@@ -1,0 +1,22 @@
+.container,
+.inner {
+  width: 300px;
+  height: 300px;
+}
+.container {
+  background-color: blueviolet;
+  border: 1px solid rosybrown;
+  margin-bottom: 150px;
+}
+.inner {
+  background-color: aqua;
+  border: 1px solid royalblue;
+  transform: translateX(130px) scale(0.5);
+}
+.inner:hover {
+    transform: translateY(130px) scale(0.5) rotate(45deg);
+    transition: 1s;
+}
+h3 {
+  text-align: center;
+}
